@@ -1,0 +1,1 @@
+/usr/local/clang/bin/clang++ -O3 -DNDEBUG CMakeFiles/Benchmark.dir/Benchmark.cpp.o -o Benchmark  -Wl,-rpath,/usr/local/tbb/lib /usr/local/benchmark/lib/libbenchmark.a /usr/local/tbb/lib/libtbb.so.12.8 -lpthread -lrt 
